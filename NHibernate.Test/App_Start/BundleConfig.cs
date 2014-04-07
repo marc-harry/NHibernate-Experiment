@@ -39,7 +39,21 @@ namespace NHibernate.Test
                 new ScriptResourceDefinition
                 {
                     Path = "~/Scripts/respond.min.js",
-                    DebugPath = "~/Scripts/respond.js",
+                    DebugPath = "~/Scripts/respond.min.js",
+                });
+            ScriptManager.ScriptResourceMapping.AddDefinition(
+                "bootstrap",
+                new ScriptResourceDefinition
+                {
+                    Path = "~/Scripts/bootstrap.min.js",
+                    DebugPath = "~/Scripts/bootstrap.min.js",
+                });
+            ScriptManager.ScriptResourceMapping.AddDefinition(
+                "jquery",
+                new ScriptResourceDefinition
+                {
+                    Path = "~/Scripts/jquery-1.10.2.min.js",
+                    DebugPath = "~/Scripts/jquery-1.10.2.min.js",
                 });
         }
     }
