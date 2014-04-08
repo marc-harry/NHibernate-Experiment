@@ -18,7 +18,7 @@ namespace NHibernate.TestHarness
 
                 foreach (Product product in products)
                 {
-                    Console.WriteLine("Product name: {0} \nProduct type: {1} \n \n", product.Name, product.Category);
+                    Console.WriteLine("Product name: {0} \nProduct type: {1} \n", product.Name, product.Category);
                 }
 
                 Console.Read();
