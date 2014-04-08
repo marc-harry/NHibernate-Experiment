@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30110.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernate.Test", "NHibernate.Test\NHibernate.Test.csproj", "{20EBA647-9353-4B16-B8E6-53E1BA1230C6}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernate.DataAccess", "NHibernate.DataAccess\NHibernate.DataAccess.csproj", "{DEB1F77B-057B-4661-BDDF-267A34FFE8CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernate.TestHarness", "NHibernate.TestHarness\NHibernate.TestHarness.csproj", "{5E46AA50-AF18-4334-B0A2-B3AD7B48D828}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{20EBA647-9353-4B16-B8E6-53E1BA1230C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{20EBA647-9353-4B16-B8E6-53E1BA1230C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{20EBA647-9353-4B16-B8E6-53E1BA1230C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{20EBA647-9353-4B16-B8E6-53E1BA1230C6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DEB1F77B-057B-4661-BDDF-267A34FFE8CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DEB1F77B-057B-4661-BDDF-267A34FFE8CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DEB1F77B-057B-4661-BDDF-267A34FFE8CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DEB1F77B-057B-4661-BDDF-267A34FFE8CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E46AA50-AF18-4334-B0A2-B3AD7B48D828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E46AA50-AF18-4334-B0A2-B3AD7B48D828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E46AA50-AF18-4334-B0A2-B3AD7B48D828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E46AA50-AF18-4334-B0A2-B3AD7B48D828}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
